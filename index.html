@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER: Encabezado principal con título -->
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+    </header>
+
+    <!-- NAV: Barra de navegación con enlaces -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- SOBRE MI: Presentación personal -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador apasionado por la tecnología, la automatización y el aprendizaje continuo. Mi misión es crear soluciones prácticas y eficientes.</p>
+            <img src="img/perfil.png" alt="Foto de perfil">
+        </section>
+
+        <!-- TARJETAS: Proyectos destacados -->
+        <section id="tarjetas">
+            <h2>Proyectos Destacados</h2>
+            <div class="tarjetas-container">
+                <div class="tarjeta">
+                    <img src="img/proyecto1.png" alt="Proyecto 1">
+                    <p>Descripción breve del proyecto 1.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/proyecto2.png" alt="Proyecto 2">
+                    <p>Descripción breve del proyecto 2.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES: Tecnologías y hobbies -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Automatización con Python</li>
+                <li>Aprendiendo React</li>
+                <li>Hobbies: música y cocina</li>
+            </ul>
+        </section>
+
+        <!-- CONTACTO: Formulario básico -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- PELÍCULAS: Favoritas -->
+        <section id="peliculas">
+            <h2>Mis Películas Favoritas</h2>
+            <div class="peliculas-container">
+                <div class="pelicula">
+                    <h3>El Padrino</h3>
+                    <img src="img/padrino.png" alt="El Padrino">
+                    <p>Un clásico del cine sobre poder y familia.</p>
+                </div>
+                <div class="pelicula">
+                    <h3>Matrix</h3>
+                    <img src="img/matrix.png" alt="Matrix">
+                    <p>Una obra maestra de ciencia ficción.</p>
+                </div>
+                <div class="pelicula">
+                    <h3>Inception</h3>
+                    <img src="img/inception.png" alt="Inception">
+                    <p>Un viaje fascinante dentro de los sueños.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER: Información adicional -->
+    <footer>
+        <p>© 2026 - Mi Portafolio</p>
+        <p>Sígueme en:
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
