@@ -18,8 +18,8 @@ El objetivo es aplicar conceptos de HTML y CSS, organizar la estructura del proy
 - [x] Proyecto subido al repositorio.
 - [x] Proyecto publicado utilizando GitHub Pages o Vercel.
 - [ ] En este README se indica la URL de publicación:
-  - GitHub: ______________________
-  - Vercel: ______________________
+  - GitHub: https://github.com/Vitito14/mi-portafolio
+  - Vercel: https://mi-portafolio-eta-six.vercel.app/
 
 ### Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head".
